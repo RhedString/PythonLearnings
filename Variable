@@ -1,0 +1,78 @@
+Arise = "Shadow"
+print(Arise)
+print("lol" * 11)
+
+# I'm naming my variables Shadows
+Shadow1 = "Igris,"
+Shadow2 = "Beru,"
+Shadow3 = "Iron, and"
+Shadow4 = "Tank"
+print(Shadow1, Shadow2, Shadow3, Shadow4)
+
+# Variable = A container for a value (string, integer, float, boolean) <-- these are data types
+#               A variable behaves as if it was the value it contains
+#               each variable should have a unique name
+
+# Strings = a series of characters/text they can include with numbers but we treat them as characters
+first_name = "Roronoa"
+location = "no where to be found"
+title = "Pirate Hunter"
+bounty = "Bounty of 777Million"
+
+print(first_name)
+
+# f-string = use your variable along with some text by using f-string
+# easiest way to display a variable
+# f means format
+# to do that you need to put a f and set of curly braces
+print(f"Lost {first_name}")
+print(f"Zoro is {location}")
+print(f"Is he missing? The {title}")
+print(f"The pirate with the {bounty}")
+
+# Integers = is a whole number (we can use arithmetic expressions)
+bountyofC = 25
+Cwants = 125
+Ckilled = 0
+
+print(f"Choppers bounty is {bountyofC} only")
+print(f"Why can't it go high to {Cwants} that's all I need")
+print(f"Maybe because you killed {Ckilled} people")
+
+# Float = floating point number, a float is a number but it contais a decimal portion
+HamPrice = 149.49
+Luffyiq = 10.11
+LuffyBattleiq = 999.99
+
+print(f"Luufy wants to buy the Ham for ${HamPrice} berries")
+print(f"Luffy's iq is {Luffyiq} only bro")
+print(f"but Luffy's battle iq is {LuffyBattleiq} that is too much")
+
+# Boolean = is either true or false
+Doctor = True
+Direction = False
+Cook = True
+RUAPirate = False
+RUAMarine = False
+HighRank = True
+
+print(f"Is Chopper the Doctor in the ship? {Doctor}")
+print(f"Does Zoro know the location? {Direction}")
+print(f"Sanji is so good at cooking. {Cook}")
+
+# with Boolean values we really dont output them directly,
+# its more likely to see them used internally within a program such as when working with if statements
+if RUAPirate:
+    print("Real Pirate")
+else:
+    print("Kill this fake guy")
+
+if RUAMarine:
+    print("Justice for all")
+else:
+    print("I wanna be a PIRATE")
+
+if HighRank:
+    print("Too STRONG!!!")
+else:
+    print("WEAK asf")
